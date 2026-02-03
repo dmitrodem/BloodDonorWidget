@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_blood_type"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+    
+    <RadioGroup
+        android:id="@+id/blood_type_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <RadioButton
+            android:id="@+id/blood_type_o_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_o_plus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_o_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_o_minus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_a_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_a_plus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_a_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_a_minus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_b_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_b_plus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_b_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_b_minus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_ab_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_ab_plus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+        <RadioButton
+            android:id="@+id/blood_type_ab_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_type_ab_minus"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+            
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:textSize="18sp" />
+    
+</LinearLayout>
