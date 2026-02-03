@@ -55,11 +55,32 @@ The app uses RGB analysis to determine status:
 
 4. **Default**: Green (if no other conditions match)
 
+## Screenshots
+
+### Main Activity (Blood Type Selection)
+![Main Activity](screenshots/main_activity.png)
+
+The main activity allows users to select their blood type from the standard 8 blood groups (O+, O-, A+, A-, B+, B-, AB+, AB-). The selection is saved and used to determine which region of the status image to analyze.
+
+### Home Screen Widget
+![Widget on Home Screen](screenshots/widget_home_screen.png)
+
+The 1x1 home screen widget displays:
+- **Colored Unicode circle (●)**: Status indicator (red/yellow/green)
+- **Blood type text**: Selected blood group (e.g., "O+")
+- **Update date**: Last refresh date in "dd MMM" format
+
+**Widget Features**:
+- Tap to force immediate update
+- Automatic updates every 30 minutes
+- Compact 1x1 size fits anywhere on home screen
+- Color-coded urgency status at a glance
+
 ## Technical Details
 
 - **Language**: Java
 - **Minimum SDK**: API 16 (Android 4.1)
-- **Target SDK**: API 30 (Android 11)
+- **Target SDK**: API 34 (Android 14)
 - **Build System**: Gradle
 - **Dependencies**: None (no androidx/jetpack - pure Android framework)
 
