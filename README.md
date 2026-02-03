@@ -63,7 +63,7 @@ The app uses RGB analysis to determine status:
 The main activity allows users to select their blood type from the standard 8 blood groups (O+, O-, A+, A-, B+, B-, AB+, AB-). The selection is saved and used to determine which region of the status image to analyze.
 
 ### Home Screen Widget
-![Widget on Home Screen](screenshots/widget_home_screen.png)
+<img src="screenshots/widget_home_screen.png" width="300" alt="Widget on Home Screen">
 
 The 1x1 home screen widget displays:
 - **Colored Unicode circle (●)**: Status indicator (red/yellow/green)
@@ -75,6 +75,15 @@ The 1x1 home screen widget displays:
 - Automatic updates every 30 minutes
 - Compact 1x1 size fits anywhere on home screen
 - Color-coded urgency status at a glance
+
+### Video Demo
+
+<video width="320" controls>
+  <source src="screenshots/blood_donor_demo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+*15-second demo showing: App launch → Blood type selection → Widget placement → Tap-to-refresh*
 
 ## Technical Details
 
